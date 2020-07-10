@@ -34,4 +34,21 @@ public class Main {
             swap(arr, i , i + n);
         }
     }
+
+
+    //https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+
+    private static boolean[] kidsWithGreatestNumberOfCandies(int[] candies, int numLeft){
+        boolean[] answer = new boolean[candies.length];
+        int maxNum = 0;
+        for (int candy : candies) {
+            if(candy > maxNum)
+                maxNum = candy;
+        }
+
+        for (int i = 0 ; i < candies.length; i ++) {
+          answer[i] = candies[i] + numLeft > maxNum? true : false;
+        }
+        return  answer;
+    }
 }
