@@ -18,4 +18,20 @@ public class Main {
         }
         return runningSum;
     }
+
+    private static void swap(int[] arr, int i, int j){
+        if( arr == null || i <  0 || j < 0 || i == j || i >= arr.length || j >= arr.length)
+            return;
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    //https://leetcode.com/problems/shuffle-the-array/
+    private static void shuffleArray(int[] arr){
+        int n = arr.length/2;
+        for(int i = 0 ; i < n ; i ++){
+            swap(arr, i , i + n);
+        }
+    }
 }
