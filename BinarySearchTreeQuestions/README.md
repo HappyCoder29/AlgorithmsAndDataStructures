@@ -1,8 +1,5 @@
-# Binary Tree Questions
+## Binary Search Tree Questions
 
-<ol>
-<li> Binary Tree Basics </li>
-</ol> 
 
 
 
