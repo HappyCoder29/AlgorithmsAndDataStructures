@@ -1,10 +1,3 @@
-# Binary Tree Questions
-
-<ol>
-<li> Binary Tree Basics </li>
-</ol> 
-
-
-
+## Binary Tree Questions
 
 
