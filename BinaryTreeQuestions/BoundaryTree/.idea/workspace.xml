@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b280b902-3630-4142-a01d-cb21c4c4c63b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BoundaryTree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BoundaryTree/edu/northeastern/ashish/BinaryTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BoundaryTree/edu/northeastern/ashish/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/BoundaryTree/edu/northeastern/ashish/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/northeastern/ashish/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/northeastern/ashish/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/northeastern/ashish/Node.java" afterDir="false" />
-    </list>
+    <list default="true" id="b280b902-3630-4142-a01d-cb21c4c4c63b" name="Changes" comment="Checking in code for printing the boundary of Binary Tree" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +109,14 @@
       <option name="presentableId" value="Default" />
       <updated>1638058944781</updated>
     </task>
+    <task id="LOCAL-00001" summary="Checking in code for printing the boundary of Binary Tree">
+      <created>1638059935618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638059935618</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,5 +129,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Checking in code for printing the boundary of Binary Tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="Checking in code for printing the boundary of Binary Tree" />
   </component>
 </project>
