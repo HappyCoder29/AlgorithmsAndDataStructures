@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b280b902-3630-4142-a01d-cb21c4c4c63b" name="Changes" comment="Checking in code for printing the boundary of Binary Tree" />
+    <list default="true" id="b280b902-3630-4142-a01d-cb21c4c4c63b" name="Changes" comment="Checking in code for printing the boundary of Binary Tree">
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/CreateTreeFromInOrderAndPreOrder.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/src/edu/northeastern/ashish/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/src/edu/northeastern/ashish/BoxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/src/edu/northeastern/ashish/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CreateTreeFromInOrderAndPreOrder/src/edu/northeastern/ashish/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DynamicProgrammingQuestions/GetMinimumCoins/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DynamicProgrammingQuestions/GetMinimumCoins/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DynamicProgrammingQuestions/GetMinimumCoins/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DynamicProgrammingQuestions/GetMinimumCoins/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DynamicProgrammingQuestions/GetMinimumCoins/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DynamicProgrammingQuestions/GetMinimumCoins/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DynamicProgrammingQuestions/GetMinimumCoins/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DynamicProgrammingQuestions/GetMinimumCoins/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DynamicProgrammingQuestions/GetMinimumCoins/GetMinimumCoins.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DynamicProgrammingQuestions/GetMinimumCoins/src/edu/northeastern/ashish/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,6 +107,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -129,6 +155,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Checking in code for printing the boundary of Binary Tree" />
