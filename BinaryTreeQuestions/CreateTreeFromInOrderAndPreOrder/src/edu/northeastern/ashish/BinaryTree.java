@@ -1,5 +1,7 @@
 package edu.northeastern.ashish;
 
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -55,6 +57,16 @@ public class BinaryTree <T> {
         return -1;
     }
 
+    private int findIndex(T[] arr, int value){
+
+        for(int i = 0; i < arr.length ; i ++){
+            if(arr[i].equals(value)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
     public Node<T> constructTreeFromInOrderAndPreOrder(T[] inOrder, T[] preOrder){
         BoxValue<Integer> preIndex = new BoxValue<>(0);
         return  getTreeFromPreAndInOrder(inOrder, preOrder, preIndex, 0, inOrder.length  -1);
@@ -69,14 +81,10 @@ public class BinaryTree <T> {
         Node<T> node = new Node<T>(preOrder[preIndex.value]);
         preIndex.value ++;
 
-     //   System.out.println(node.data);
-
         int inOrderIndex = findIndex(inOrder, start, end, (Integer) node.data);
 
         node.left = getTreeFromPreAndInOrder(inOrder, preOrder, preIndex, start, inOrderIndex -1);
         node.right = getTreeFromPreAndInOrder(inOrder, preOrder, preIndex, inOrderIndex+1 , end);
-
-
 
         return node;
 
