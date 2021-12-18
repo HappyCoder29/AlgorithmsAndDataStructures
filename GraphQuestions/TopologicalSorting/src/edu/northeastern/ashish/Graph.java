@@ -97,10 +97,8 @@ public class Graph {
             System.out.print(stack.pop().getName() + ", ");
         }
         System.out.println();
-
-
     }
-    public void topologicalSorting(Node node, Stack<Node> stack){
+    private void topologicalSorting(Node node, Stack<Node> stack){
 
         for (Node n: getChildren(node)) {
             if(!stack.contains(n)){
