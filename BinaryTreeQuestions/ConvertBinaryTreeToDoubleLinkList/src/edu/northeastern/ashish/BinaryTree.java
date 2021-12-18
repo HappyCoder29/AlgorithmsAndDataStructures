@@ -22,15 +22,18 @@ public class BinaryTree <T> {
         return  1 + size(node.left) + size(node.right);
     }
 
+
+
+    //O(2n) ~ O(n)
     public void flattenTreeInPreOrder(){
         if(root == null){
             return;
         }
         LinkedList< Node<T> > list = new LinkedList<>();
         BoxValue box = new BoxValue(0);
-        flattenTreeInPreOrder(root, list, box);
+        flattenTreeInPreOrder(root, list, box); //O(n)
         Node<T> prev = null;
-        for(int i = 0 ; i < list.size(); i ++){
+        for(int i = 0 ; i < list.size(); i ++){ //O(n)
             list.get(i).left = prev;
             if(i +1 != list.size()){
                 list.get(i).right = list.get(i+1);
@@ -53,17 +56,18 @@ public class BinaryTree <T> {
     }
 
 
+    // O(3(n) ~ O(n)  Space is O(n)
     public void flattenTreeInlevelOrder(){
         if(root == null){
             return;
         }
-        int size = size();
+        int size = size(); // O(n)
         int ptr = 0;
 
         LinkedList< Node<T> > list = new LinkedList<>();
         list.add(root);
 
-        while( ptr < size ){
+        while( ptr < size ){ // O(n) This can be made to O(1)
             Node<T> node = list.get(ptr);
             System.out.print(node.data + ", ");
             if(node.left != null){
@@ -75,7 +79,7 @@ public class BinaryTree <T> {
             ptr ++;
         }
         Node<T> prev = null;
-        for(int i = 0 ; i < size; i ++){
+        for(int i = 0 ; i < size; i ++){ //O(n)
             list.get(i).left = prev;
             if(i +1 != size){
                 list.get(i).right = list.get(i+1);
