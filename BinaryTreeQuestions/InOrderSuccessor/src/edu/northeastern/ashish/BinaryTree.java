@@ -58,6 +58,7 @@ public class BinaryTree <T> {
     }
 
 
+    // O(n) Space O(n)
     public Node<T> inOrderSuccessorWithList(Node<T> nodeValue){
 
         if(nodeValue == null){
@@ -76,6 +77,8 @@ public class BinaryTree <T> {
         return  list.get(index + 1);
 
     }
+
+    // O(n) Space O(n)
 
     public Node<T> inOrderPredessorWithList(Node<T> nodeValue){
 
