@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
         BinaryTree<Integer> tree = new BinaryTree<>();
         tree.root = createTree();
-        System.out.println(tree.countNodes());
         System.out.println(tree.depth());
         System.out.println(tree.isCompleteTree());
 
