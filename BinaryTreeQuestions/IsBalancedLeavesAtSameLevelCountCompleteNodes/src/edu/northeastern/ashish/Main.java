@@ -2,6 +2,7 @@ package edu.northeastern.ashish;
 
 public class Main {
 
+    public  static  int globalVal = 0;
     public static void main(String[] args) {
         BinaryTree<Integer> tree = new BinaryTree<>();
         tree.root = createTree();
