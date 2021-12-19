@@ -54,23 +54,21 @@ public class BinaryTree <T> {
                 areAllLeavesAtSameLevel( node.right, box, height + 1);
     }
 
-    public int countNumberOfCompleteNodes(){
+    public int countNumberOfLeafNodes(){
         BoxValue<Integer> box = new BoxValue<>(0);
-        countNumberOfCompleteNodes(root, box);
+        countNumberOfLeafNodes(root, box);
         return box.value;
     }
 
-    private void countNumberOfCompleteNodes(Node<T> node, BoxValue<Integer> box){
+    private void countNumberOfLeafNodes(Node<T> node, BoxValue<Integer> box){
         if(node != null){
             if(node.left != null && node.right != null){
                 box.value ++;
             }
-            countNumberOfCompleteNodes(node.left, box);
-            countNumberOfCompleteNodes(node.right, box);
+            countNumberOfLeafNodes(node.left, box);
+            countNumberOfLeafNodes(node.right, box);
 
         }
-
-
 
     }
 
