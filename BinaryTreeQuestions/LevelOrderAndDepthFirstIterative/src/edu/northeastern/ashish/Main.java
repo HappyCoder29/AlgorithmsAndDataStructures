@@ -5,8 +5,10 @@ public class Main {
     public static void main(String[] args) {
         BinaryTree<Integer> tree = new BinaryTree<>();
         tree.root = createTree();
-        tree.levelOrder();
+      //  tree.levelOrder();
         tree.depthFirstIterative();
+        tree.depthFirstRecursive();
+
     }
 
     private static Node<Integer> createTree(){

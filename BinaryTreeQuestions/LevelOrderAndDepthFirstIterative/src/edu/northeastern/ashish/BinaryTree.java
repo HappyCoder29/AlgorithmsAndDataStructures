@@ -62,7 +62,19 @@ public class BinaryTree <T>{
             }
         }
         System.out.println();
+    }
 
+    public void depthFirstRecursive(){
+        depthFirstRecursive(root);
+        System.out.println();
+    }
+    private void depthFirstRecursive(Node<T> node){
+        if(node != null){
+            System.out.print(node.data + ", ");
+            depthFirstRecursive(node.left);
+            depthFirstRecursive(node.right);
+
+        }
     }
 
 }
