@@ -28,6 +28,22 @@ public class BinaryTree <T>{
 
     }
 
+    public boolean isSameTree(Node<T> node1, Node<T> node2){
+        if(node1 == null && node2 == null){
+            return true;
+        }
+
+        if(node1 == null || node2 == null){
+            return false;
+        }
+        return  node1.data == node2.data &&
+                isSameTree(node1.left, node2.left) &&
+                isSameTree(node1.right, node2.right);
+    }
+
+
+
+
     public boolean areIsomorphic(Node<T> node1, Node<T> node2){
         if(node1 == null && node2 == null){
             return true;
