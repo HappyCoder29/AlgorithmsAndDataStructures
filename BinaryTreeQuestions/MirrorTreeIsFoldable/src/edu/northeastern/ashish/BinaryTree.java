@@ -107,4 +107,16 @@ public class BinaryTree <T>{
         System.out.println();
     }
 
+    public  boolean symmetricTree(){
+        if( root == null || (root.left == null && root.right == null) ){
+            return true;
+        }
+        Node<T> node1 = root.left;
+        Node<T> node2 = root.right;
+        mirrorTree(node2);
+
+        return isSameTree(node1, node2);
+
+    }
+
 }
