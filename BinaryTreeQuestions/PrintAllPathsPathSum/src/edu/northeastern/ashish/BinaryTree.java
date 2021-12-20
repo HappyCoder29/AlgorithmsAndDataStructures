@@ -16,23 +16,49 @@ public class BinaryTree <T> {
     }
 
     private  void printAllRootToLeaf(Node<T> node, ArrayList<T> list, int ptr){
-        if(node == null){
-            return;
-        }
-        list.add(ptr, node.data);
-
-        // If node == leaf we print out the entire list
-        if(node.left == null && node.right == null){
-            for(int i = 0 ; i <= ptr; i ++){
-                System.out.print(list.get(i) + ", ");
+        if(node != null) {
+            list.add(ptr, node.data);
+            // If node == leaf we print out the entire list
+            if (node.left == null && node.right == null) {
+                for (int i = 0; i <= ptr; i++) {
+                    System.out.print(list.get(i) + ", ");
+                }
+                System.out.println();
+                return;
             }
-            System.out.println();
-        }
-        else{
             printAllRootToLeaf(node.left, list, ptr + 1);
             printAllRootToLeaf(node.right, list, ptr + 1);
         }
     }
+
+
+    public  ArrayList<ArrayList<T>> getAllRootToLeaf(){
+
+        ArrayList<ArrayList<T>> returnList = new ArrayList<>();
+        ArrayList<T> list = new ArrayList<>();
+
+        getAllRootToLeaf(root, list, 0, returnList);
+        return returnList;
+    }
+
+    private  void getAllRootToLeaf(Node<T> node, ArrayList<T> list, int ptr, ArrayList<ArrayList<T>> returnList){
+        if(node != null) {
+            list.add(ptr, node.data);
+            // If node == leaf we print out the entire list
+            if (node.left == null && node.right == null) {
+                ArrayList<T> lst = new ArrayList<>();
+                for (int i = 0; i <= ptr; i++) {
+                    lst.add(i,list.get(i));
+                   // System.out.print(list.get(i) + ", ");
+                }
+                returnList.add(lst);
+                return;
+            }
+            getAllRootToLeaf(node.left, list, ptr + 1, returnList);
+            getAllRootToLeaf(node.right, list, ptr + 1, returnList);
+        }
+    }
+
 
 
     public  boolean hasPathSum( int sum){
@@ -50,14 +76,14 @@ public class BinaryTree <T> {
     public ArrayList<ArrayList<T>> allPathSum(int sum ){
         ArrayList<T> list = new ArrayList<>();
         ArrayList<ArrayList<T>> allLists = new ArrayList<>();
-        BoxValue<ArrayList<ArrayList<T>>> box = new BoxValue<>(allLists);
+       // BoxValue<ArrayList<ArrayList<T>>> box = new BoxValue<>(allLists);
 
-        allPathSum(root, list, box, 0, sum);
+        allPathSum(root, list, allLists, 0, sum);
 
-        return box.value;
+        return allLists;
     }
 
-    public void allPathSum(Node<T> node, ArrayList<T> list, BoxValue<ArrayList<ArrayList<T>>> box,  int ptr, int sum ){
+    public void allPathSum(Node<T> node, ArrayList<T> list, ArrayList<ArrayList<T>> allLists,  int ptr, int sum ){
         if(node == null){
             return;
         }
@@ -69,14 +95,11 @@ public class BinaryTree <T> {
             for(int i = 0 ; i <= ptr; i ++){
                 lst.add(list.get(i));
             }
-            box.value.add(lst);
+            allLists.add(lst);
         }
         else{
-            allPathSum(node.left, list, box, ptr + 1, sum - (Integer)node.data);
-            allPathSum(node.right, list,box,  ptr + 1, sum - (Integer)node.data);
+            allPathSum(node.left, list, allLists, ptr + 1, sum - (Integer)node.data);
+            allPathSum(node.right, list,allLists,  ptr + 1, sum - (Integer)node.data);
         }
     }
-
-
-
 }
