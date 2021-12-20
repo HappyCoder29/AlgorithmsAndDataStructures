@@ -54,11 +54,11 @@ public class BinaryTree <T>{
         while(!stack.isEmpty()){
             Node<T> node = stack.pop();
             System.out.print(node.data + ", ");
-            if(node.left != null){
-                stack.push(node.left);
-            }
             if(node.right != null){
                 stack.push(node.right);
+            }
+            if(node.left != null){
+                stack.push(node.left);
             }
         }
         System.out.println();
