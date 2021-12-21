@@ -102,4 +102,64 @@ public class BinaryTree <T> {
             allPathSum(node.right, list,allLists,  ptr + 1, sum - (Integer)node.data);
         }
     }
+
+
+    public  int maxPathSum(){
+        ArrayList<T> list = new ArrayList<>();
+        BoxValue<Integer> maxSum = new BoxValue<>(0);
+
+        maxPathSum(root, list, 0, maxSum);
+        return maxSum.value;
+    }
+
+    private  void maxPathSum(Node<T> node, ArrayList<T> list, int ptr, BoxValue<Integer> maxSum){
+        if(node != null) {
+            list.add(ptr, node.data);
+            // If node == leaf we print out the entire list
+            if (node.left == null && node.right == null) {
+                Integer sum = 0;
+                for (int i = 0; i <= ptr; i++) {
+                    sum += (Integer) list.get(i);
+                }
+                if(sum > maxSum.value){
+                    maxSum.value = sum;
+                }
+                return;
+            }
+            maxPathSum(node.left, list, ptr + 1, maxSum);
+            maxPathSum(node.right, list, ptr + 1, maxSum);
+        }
+    }
+
+    public int getMaxPathSum(){
+        BoxValue<Integer> maxSum = new BoxValue<>(0);
+
+        int val = getMaxPathSum(root, maxSum);
+        return maxSum.value;
+
+
+    }
+
+    private int getMaxPathSum(Node<T> node, BoxValue<Integer> maxSum){
+        if(node == null){
+            return 0;
+        }
+
+        int leftSum = Math.max(getMaxPathSum(node.left, maxSum), 0);
+        int rightSum = Math.max(getMaxPathSum(node.right, maxSum), 0);
+        int maxAtThisLevel = (Integer)node.data + leftSum + rightSum;
+        if(maxSum.value < maxAtThisLevel){
+            maxSum.value = maxAtThisLevel;
+        }
+
+        return (Integer)node.data + Math.max(leftSum, rightSum);
+
+    }
+
+
+
+
+
+
+
 }

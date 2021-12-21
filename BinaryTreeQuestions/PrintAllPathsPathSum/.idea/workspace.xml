@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="523e94df-b411-4c80-b1f2-d676bb7ffaee" name="Changes" comment="checking in Tree code" />
+    <list default="true" id="523e94df-b411-4c80-b1f2-d676bb7ffaee" name="Changes" comment="checking in Tree code">
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeUpsideDown/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeUpsideDown/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeUpsideDown/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeUpsideDown/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeUpsideDown/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeUpsideDown/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeUpsideDown/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeUpsideDown/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeUpsideDown/BinaryTreeUpsideDown.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeUpsideDown/src/edu/northeastern/ashish/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeUpsideDown/src/edu/northeastern/ashish/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeUpsideDown/src/edu/northeastern/ashish/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopulteNextRight/src/edu/northeastern/ashish/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopulteNextRight/src/edu/northeastern/ashish/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BoundaryTree/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BoundaryTree/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PopulteNextRight/src/edu/northeastern/ashish/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PopulteNextRight/src/edu/northeastern/ashish/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PrintAllPathsPathSum/edu/northeastern/ashish/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PrintAllPathsPathSum/edu/northeastern/ashish/BinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PrintAllPathsPathSum/edu/northeastern/ashish/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PrintAllPathsPathSum/edu/northeastern/ashish/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/northeastern/ashish/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/northeastern/ashish/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/northeastern/ashish/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/northeastern/ashish/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,8 +179,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/edu/northeastern/ashish/Main.java</url>
-          <line>18</line>
+          <line>28</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/northeastern/ashish/BinaryTree.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

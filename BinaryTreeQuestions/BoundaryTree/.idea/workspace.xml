@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b280b902-3630-4142-a01d-cb21c4c4c63b" name="Changes" comment="Checking in code for printing the boundary of Binary Tree">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BoundaryTree/edu/northeastern/ashish/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BoundaryTree/edu/northeastern/ashish/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopulteNextRight/src/edu/northeastern/ashish/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PopulteNextRight/src/edu/northeastern/ashish/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

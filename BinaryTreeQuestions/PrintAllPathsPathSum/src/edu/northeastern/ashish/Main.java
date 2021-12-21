@@ -3,20 +3,32 @@ package edu.northeastern.ashish;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+//124. Binary Tree Maximum Path Sum
 public class Main {
 
     public static void main(String[] args) {
         BinaryTree<Integer> tree = new BinaryTree<>();
         tree.root = createTree();
 
+
+
         ArrayList<ArrayList<Integer>> listOfPaths = tree.getAllRootToLeaf();
         for (ArrayList<Integer> path : listOfPaths) {
             System.out.println(Arrays.toString(path.stream().mapToInt(i -> i).toArray()));
         }
+        Integer maxSum = tree.maxPathSum();
+        System.out.println(maxSum);
+
+
+        Integer maxSumAllPaths = tree.getMaxPathSum();
+        System.out.println(maxSumAllPaths);
+
 
         ///tree.printAllRootToLeaf();
        // ArrayList<ArrayList<Integer>> allList = tree.allPathSum(22);
         System.out.println();
+
+
 
     }
 
