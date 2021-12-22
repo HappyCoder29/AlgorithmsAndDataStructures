@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="523e94df-b411-4c80-b1f2-d676bb7ffaee" name="Changes" comment="checking in Tree code">
-      <change afterPath="$PROJECT_DIR$/../CountUnivalueNodes/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountUnivalueNodes/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountUnivalueNodes/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountUnivalueNodes/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountUnivalueNodes/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountUnivalueNodes/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountUnivalueNodes/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountUnivalueNodes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountUnivalueNodes/CountUnivalueNodes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountUnivalueNodes/src/edu/northeastern/ashish/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountUnivalueNodes/src/edu/northeastern/ashish/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CountUnivalueNodes/src/edu/northeastern/ashish/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LowestCommonAncestor/out/production/LowestCommonAncestor/edu/northeastern/ashish/BinaryTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LowestCommonAncestor/src/edu/northeastern/ashish/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LowestCommonAncestor/src/edu/northeastern/ashish/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/SerializeDeserializeBinaryTree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/out/production/SerializeDeserializeBinaryTree/edu/northeastern/ashish/BinaryTree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/out/production/SerializeDeserializeBinaryTree/edu/northeastern/ashish/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/out/production/SerializeDeserializeBinaryTree/edu/northeastern/ashish/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/src/edu/northeastern/ashish/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/src/edu/northeastern/ashish/BoxValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/src/edu/northeastern/ashish/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SerializeDeserializeBinaryTree/src/edu/northeastern/ashish/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/northeastern/ashish/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/northeastern/ashish/BinaryTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

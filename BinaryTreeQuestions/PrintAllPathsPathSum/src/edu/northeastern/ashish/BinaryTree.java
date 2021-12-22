@@ -137,7 +137,6 @@ public class BinaryTree <T> {
         int val = getMaxPathSum(root, maxSum);
         return maxSum.value;
 
-
     }
 
     private int getMaxPathSum(Node<T> node, BoxValue<Integer> maxSum){
