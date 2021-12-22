@@ -1,23 +1,16 @@
 package edu.northeastern.ashish;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.LinkedList;
-
+//https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/
 public class Main {
 
     public static void main(String[] args) {
         BinaryTree<Integer> tree = new BinaryTree<>();
         tree.root = createTree();
-
-        Node<Integer> commonAncestor = tree.lowestCommonAncestor(tree.root.left, tree.root.left.right.left);
-
-        System.out.println(commonAncestor.data);
-
+        tree.preOrder();
+        int[] arr = {1,2,4,8,5,9,6,3,10,7,11};
+        System.out.println(tree.verifyPreOrder(arr) );
 
     }
-
     private static Node<Integer> createTree(){
         Node<Integer> root = new Node<>(1);
         root.parent = null;
@@ -49,26 +42,6 @@ public class Main {
         root.right.left.left.parent = root.right.left;
         root.right.right.right = new Node<>(11);
         root.right.right.right.parent = root.right.right;
-
-        return root;
-    }
-
-    private static Node<Integer> createBST(){
-        Node<Integer> root = new Node<>(8);
-
-        // Second level
-        root.left = new Node<>(3);
-        root.right = new Node<>(10);
-        // Third Level
-        root.left.left = new Node<>(1);
-        root.left.right = new Node<>(6);
-        root.right.right = new Node<>(14);
-
-
-        // Fourth Level
-        root.left.right.left = new Node<>(4);
-        root.left.right.right = new Node<>(7);
-        root.right.right.left = new Node<>(13);
 
         return root;
     }
