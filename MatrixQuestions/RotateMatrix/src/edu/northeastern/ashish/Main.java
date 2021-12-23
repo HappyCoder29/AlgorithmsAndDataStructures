@@ -41,7 +41,7 @@ public class Main {
     {
         int iStart = 0;
         int iEnd = matrix[0].length - 1;
-        while (iEnd >= iStart)
+        while (iEnd > iStart)
         {
             swapRow(matrix, row, iStart, iEnd);
             iStart++;
