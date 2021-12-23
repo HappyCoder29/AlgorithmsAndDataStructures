@@ -16,12 +16,14 @@ public class Main {
 
     private static void printSpiral(int[][] matrix){
         Direction dir = Direction.RIGHT;
-        int count = matrix.length * matrix[0].length;
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        int count =rows * cols;
 
         int upLimit = 0;
         int leftLimit = 0;
-        int rightLimit = matrix[0].length -1;
-        int downLimit = matrix.length -1;
+        int rightLimit = cols -1;
+        int downLimit = rows -1;
         int row = 0;
         int col = 0;
 
