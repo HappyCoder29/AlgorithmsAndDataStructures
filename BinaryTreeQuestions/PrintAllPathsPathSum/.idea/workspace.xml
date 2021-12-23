@@ -2,19 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="523e94df-b411-4c80-b1f2-d676bb7ffaee" name="Changes" comment="checking in Tree code">
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/LongestConsequtivePath.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/src/edu/northeastern/ashish/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/src/edu/northeastern/ashish/BoxValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/src/edu/northeastern/ashish/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../LongestConsequtivePath/src/edu/northeastern/ashish/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VerticalOrderTraversal/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VerticalOrderTraversal/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VerticalOrderTraversal/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VerticalOrderTraversal/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VerticalOrderTraversal/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VerticalOrderTraversal/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VerticalOrderTraversal/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VerticalOrderTraversal/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VerticalOrderTraversal/VerticalOrderTraversal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VerticalOrderTraversal/src/edu/northeastern/ashish/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VerticalOrderTraversal/src/edu/northeastern/ashish/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VerticalOrderTraversal/src/edu/northeastern/ashish/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
