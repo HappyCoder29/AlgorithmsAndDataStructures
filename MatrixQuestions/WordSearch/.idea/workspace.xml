@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adc5036e-0c1b-4b00-8a99-6fcb6c8b991d" name="Changes" comment="Checking in files for word search">
-      <change afterPath="$PROJECT_DIR$/../WordSearch2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordSearch2/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordSearch2/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordSearch2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordSearch2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordSearch2/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordSearch2/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordSearch2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordSearch2/WordSearch2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordSearch2/src/edu/northeastern/ashish/BoxValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WordSearch2/src/edu/northeastern/ashish/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="adc5036e-0c1b-4b00-8a99-6fcb6c8b991d" name="Changes" comment="Checking in files for word search" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
