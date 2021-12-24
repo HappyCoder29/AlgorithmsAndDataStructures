@@ -2,7 +2,7 @@ package edu.northeastern.ashish;
 
 import java.util.HashSet;
 import java.util.Set;
-
+//https://leetcode.com/problems/set-matrix-zeroes/
 public class Main {
 
     public static void main(String[] args) {
@@ -20,12 +20,14 @@ public class Main {
         }
     }
 
+    // O(2*n^2) ~ O(N^2) space O(n)
     private static void setZeros(int[][] matrix){
         int rows = matrix.length;
         int cols = matrix[0].length;
         HashSet<Integer> setRows = new HashSet<Integer>();
         Set<Integer> setCols = new HashSet<Integer>();
 
+        // N^2
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (matrix[i][j] == 0) {
@@ -35,6 +37,7 @@ public class Main {
             }
         }
 
+        //N^2
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (setRows.contains(i) || setCols.contains(j)) {
