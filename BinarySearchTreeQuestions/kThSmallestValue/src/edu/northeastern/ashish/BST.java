@@ -35,7 +35,8 @@ public class BST  {
 
     }
     public void getKThSmallestValue(Node node, BoxValue<Integer> box, BoxValue<Integer> returnValue){
-        if(node != null){
+        if(node != null && box.data >=  0){
+
             getKThSmallestValue(node.right, box, returnValue);
             box.data--;
             if(box.data == 0){
@@ -43,6 +44,7 @@ public class BST  {
                 returnValue.data = node.data;
                 return;
             }
+
             getKThSmallestValue(node.left, box, returnValue);
 
         }
