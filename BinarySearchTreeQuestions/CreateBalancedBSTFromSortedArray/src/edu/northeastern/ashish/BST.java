@@ -1,5 +1,6 @@
 package edu.northeastern.ashish;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -25,6 +26,24 @@ public class BST  {
         Node node = new Node(arr[mid]);
         node.left = createBalancedBST(arr, start, mid-1);
         node.right = createBalancedBST(arr, mid + 1, end);
+        return node;
+    }
+
+    public Node createBalancedBST(ArrayList<Integer> list){
+        if(list == null || list.size() == 0 ){
+            return null;
+        }
+        return createBalancedBST(list, 0, list.size() -1);
+    }
+
+    private Node createBalancedBST( ArrayList<Integer> list, int start, int end){
+        if(start > end){
+            return null;
+        }
+        int mid = (start + end)/2;
+        Node node = new Node(list.get(mid));
+        node.left = createBalancedBST(list, start, mid-1);
+        node.right = createBalancedBST(list, mid + 1, end);
         return node;
     }
 
